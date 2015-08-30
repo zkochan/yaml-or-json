@@ -4,7 +4,7 @@
   "description": "Requires a yaml or json config file depending on what it finds.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,12 @@
   "homepage": "https://github.com/zkochan/yaml-or-json#readme",
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "js-yaml": "^3.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
   }
 }
