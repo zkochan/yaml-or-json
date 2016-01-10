@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha test/**/*.js"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zkochan/yaml-or-json.git"
