@@ -27,6 +27,11 @@ This will read and parse `my-config.yaml` or `my-config.yml` or `my-config.json`
 directory, depending which file will be there.
 
 
+## JSON5 is supported!
+
+JSON files are parsed by [JSON5 parser](https://www.npmjs.com/package/json5).
+
+
 ## License
 
 The MIT License (MIT)
