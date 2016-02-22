@@ -34,4 +34,4 @@ JSON files are parsed by [JSON5 parser](https://www.npmjs.com/package/json5).
 
 ## License
 
-The MIT License (MIT)
+MIT © [Zoltan Kochan](https://www.kochan.io)
